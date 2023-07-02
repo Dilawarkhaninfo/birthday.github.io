@@ -1,0 +1,50 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background: #000;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+.fs-40{
+    font-size: 50px;
+}
+.fs-64{
+    font-size: 64px;
+}
+
+
+.rocket{
+    animation: rocket 4s linear infinite;
+    -webkit-animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+    0%{
+        top: 50%;
+        opacity: 1;
+    }
+    100%{
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@media(max-width: 576px){
+    .ms-sm-10{
+        margin-left: 100px !important;
+    }
+    .fs-sm-55{
+        font-size: 55px;
+    }
+}
